@@ -5055,7 +5055,7 @@ function generateTitle() {
 
         generatedTitle.innerText = randomTitle;
 
-        if (category === "web-based") {
+        if (category === "") {
             technologiesOutput.innerHTML = `
                 <strong>Technologies Used:</strong><br>
                 <ul>
