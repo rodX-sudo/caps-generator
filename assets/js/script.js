@@ -5030,7 +5030,7 @@ function generateTitle() {
         let techCSSFrameworks = "";
         let techLibraries = [];
 
-        if (category === "web-based") {
+        if (category === "") {
             const useFrameworks = confirm("Do you want to use frameworks?");
 
             techFrontEnd.push(useFrameworks 
